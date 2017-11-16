@@ -1,4 +1,4 @@
-package substratum.theme.template
+package volte.icons
 
 import android.app.Activity
 import android.content.Context
@@ -14,22 +14,22 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
-import substratum.theme.template.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import substratum.theme.template.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-import substratum.theme.template.Constants.MINIMUM_SUBSTRATUM_VERSION
-import substratum.theme.template.Constants.OTHER_THEME_SYSTEMS
-import substratum.theme.template.Constants.SUBSTRATUM_FILTER_CHECK
-import substratum.theme.template.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
-import substratum.theme.template.ThemeFunctions.checkSubstratumIntegrity
-import substratum.theme.template.ThemeFunctions.getSelfSignature
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedIntentResponse
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedPirateTools
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedThemeEngines
-import substratum.theme.template.ThemeFunctions.getSubstratumFromPlayStore
-import substratum.theme.template.ThemeFunctions.getSubstratumUpdatedResponse
-import substratum.theme.template.ThemeFunctions.hasOtherThemeSystem
-import substratum.theme.template.ThemeFunctions.isCallingPackageAllowed
-import substratum.theme.template.ThemeFunctions.isPackageInstalled
+import volte.icons.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import volte.icons.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import volte.icons.Constants.MINIMUM_SUBSTRATUM_VERSION
+import volte.icons.Constants.OTHER_THEME_SYSTEMS
+import volte.icons.Constants.SUBSTRATUM_FILTER_CHECK
+import volte.icons.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import volte.icons.ThemeFunctions.checkSubstratumIntegrity
+import volte.icons.ThemeFunctions.getSelfSignature
+import volte.icons.ThemeFunctions.getSelfVerifiedIntentResponse
+import volte.icons.ThemeFunctions.getSelfVerifiedPirateTools
+import volte.icons.ThemeFunctions.getSelfVerifiedThemeEngines
+import volte.icons.ThemeFunctions.getSubstratumFromPlayStore
+import volte.icons.ThemeFunctions.getSubstratumUpdatedResponse
+import volte.icons.ThemeFunctions.hasOtherThemeSystem
+import volte.icons.ThemeFunctions.isCallingPackageAllowed
+import volte.icons.ThemeFunctions.isPackageInstalled
 import java.io.File
 import java.util.*
 

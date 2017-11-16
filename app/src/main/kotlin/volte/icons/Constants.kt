@@ -1,6 +1,6 @@
-package substratum.theme.template
+package volte.icons
 
-import substratum.theme.template.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
+import volte.icons.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
 
 object Constants {
 
